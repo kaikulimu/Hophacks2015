@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (2.0.0)
+  - Bolts (1.2.2):
+    - Bolts/AppLinks (= 1.2.2)
+    - Bolts/Tasks (= 1.2.2)
+  - Bolts/AppLinks (1.2.2):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.2)
+  - Cartography (0.5.0)
+  - FastImageCache (1.3)
+  - FBSDKCoreKit (4.6.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.6.0)
+    - FBSDKCoreKit/no-arc (= 4.6.0)
+  - FBSDKCoreKit/arc (4.6.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.6.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.6.0):
+    - FBSDKCoreKit
+  - JGProgressHUD (1.3)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - ZipArchive (1.4.0)
+  - zipzap (8.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cartography (from `git@github.com:robb/Cartography.git`, branch `0.6-development`)
+  - FastImageCache
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - JGProgressHUD
+  - SDWebImage
+  - ZipArchive
+  - zipzap
+
+EXTERNAL SOURCES:
+  Cartography:
+    :branch: 0.6-development
+    :git: git@github.com:robb/Cartography.git
+
+CHECKOUT OPTIONS:
+  Cartography:
+    :commit: bf14cf5ad7276a1659cfa2ddd1a7811b4431f535
+    :git: git@github.com:robb/Cartography.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2f13548b29d25a58ecd91c9225fb51493e2b782b
+  Bolts: 20a2bd788273360cb1e31530dc19b8544eef2544
+  Cartography: 314f5ed1495995760487161eeb7a8a0940d88ad3
+  FastImageCache: 25f214fd46405daca3d1995d783fb83b9036c62e
+  FBSDKCoreKit: 9954492d90c5fd65ae831395697a1660360d61f1
+  FBSDKLoginKit: 3d07febbfa884b9878cacba54f705bb41f07d4b6
+  JGProgressHUD: a58f62d3afac173d201250c3ba628fe44bd67017
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
+  zipzap: 45be5e182aead61fbb8300ddb4766f8e82a557c4
+
+COCOAPODS: 0.38.2
